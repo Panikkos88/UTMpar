@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Open Sans', sans-serif; /* Updated font */
     background-color: #f4f4f4;
     margin: 0;
     display: flex;
@@ -10,27 +10,29 @@ body {
 
 .container {
     background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px; /* Increased padding */
+    border-radius: 10px; /* Slightly larger radius */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05); /* Softer shadow */
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px; /* Increased gap */
 }
 
 button {
-    padding: 10px;
-    background-color: #007bff;
+    padding: 12px; /* Slightly larger padding */
+    background-color: #0088cc; /* Updated button color */
     color: #fff;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Added transitions */
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #006699; /* Updated hover color */
+    transform: scale(1.05); /* Slight increase in size on hover */
 }
 
 #result {
@@ -44,4 +46,7 @@ button:hover {
 textarea {
     width: 100%;
     height: 100px;
+    padding: 10px; /* Added padding */
+    border: 1px solid #cccccc; /* Added border */
+    border-radius: 5px; /* Rounded corners */
 }
